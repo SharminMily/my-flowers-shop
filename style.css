@@ -62,14 +62,26 @@ body {
     height: 100%;
 
 }
-.section{
-    margin: 10px 50px;
+
+.section {
+    margin: 10px 70px;
+    background: #FFFFFF;
 }
+
+.featured-flowers-title {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
 .featured-flowers-info {
     margin-top: 40px;
     text-align: center;
 }
-.featured-all-img{   
+
+.featured-all-img {
     margin: 40px 70px;
     display: flex;
     justify-content: center;
@@ -77,14 +89,43 @@ body {
     gap: 20px;
 }
 
-.featured-flowers-img {
+.featured-flowers-1 {
     width: 400px;
-    height: 539px;
+    height: 420px;
     margin-top: 20px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
 }
-.featured-pic{
+
+.featured-flowers-2 {
+    width: 400px;
+    height: 420px;
+    margin-top: 20px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+
+}
+
+.featured-flowers-3 {
+    width: 400px;
+    height: 420px;
+    margin-top: 20px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.featured-pic {
     width: 70%;
-    height: 538px;
+    height: 350px;
+    margin-top: 70px;
+}
+
+.text-underline {
+    margin-top: 10px;
+    color: #272727;
+    text-align: center;    
+    font-size: 22px;    
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
 }
