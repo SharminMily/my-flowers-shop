@@ -1,7 +1,90 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-body{
+
+body {
     font-family: 'Heebo', sans-serif;
+}
+
+.banner-container {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(229, 84, 115, 0.10);
+    /* background-image: url('./images/pngwing\ 10.png');  */
+    /* background-repeat: no-repeat;
+    background-position: bottom right; */
+    /* background-size: 600px; */
+
+}
+
+.banner-info {
+    margin: 30px 30px 10px 80px;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.banner-description {
+    font-size: 20px;
+    color: rgba(26, 25, 25, 0.945);
+}
+
+.color {
+    color: rgb(235, 16, 53);
+}
+
+.banner-btn {
+    margin-top: 25px;
+    width: 155px;
+    height: 57px;
+    border-radius: 8px;
+    background: #f8315c;
+    /* background: rgb(228, 18, 53); */
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+}
+
+.banner-img {
+    padding-right: 20px;
+}
+
+.banner-pic {
+    width: 100%;
+    height: 100%;
+
+}
+.section{
+    margin: 10px 50px;
+}
+.featured-flowers-info {
+    margin-top: 40px;
+    text-align: center;
+}
+.featured-all-img{   
+    margin: 40px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.featured-flowers-img {
+    width: 400px;
+    height: 539px;
+    margin-top: 20px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.featured-pic{
+    width: 70%;
+    height: 538px;
 }
