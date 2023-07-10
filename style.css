@@ -145,3 +145,37 @@ body {
 .group-img{   
     text-align: center;
 }
+.hot-deal-container{
+    width: 100%;
+    height: 400px;
+    margin: 100px 0px;
+    background: rgba(229, 84, 115, 0.05);
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.hot-deal-info{
+    margin: 30px 30px 10px 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.deal-img{
+    width: 90%;
+    height: 350px;
+}
+
+.hot-deal-title{
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
+
+.hot-deal-description{
+    font-size: 15px;    
+    color: rgba(26, 25, 25, 0.945);
+}
+
