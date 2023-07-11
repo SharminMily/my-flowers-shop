@@ -186,6 +186,47 @@ body {
     gap: 15px;
 }
 .ins-flow{
-   width: 100%;
+    margin-bottom: 35px;
+   width: 100%
+   
 }
-
+#sub-section{
+    margin: 30px 140px;
+}
+.sub-container{ 
+    background-image: url('./images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 265px;
+   
+}
+.sub-info{   
+    text-align: center;
+    padding-top: 30px;
+}
+.sub-input{
+    margin: 10px;    
+    width: 455px;
+    height: 42px;
+    border: 0;
+    border-radius:8px;
+}
+.sub-title{
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+.sub-description{
+    font-size: 15px;
+    color: rgba(70, 67, 67, 0.945);
+    margin-bottom: 10px;
+}
+#sub-btn{
+    width: 110px;
+    height: 45px;
+    font-weight: 500;
+    font-size: 18px;
+}
