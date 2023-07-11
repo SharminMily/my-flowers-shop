@@ -121,15 +121,16 @@ body {
 }
 
 .text-underline {
-    margin-top: 10px;    
+    margin-top: 10px;
     color: #272727;
-    text-align: center;    
-    font-size: 22px;    
+    text-align: center;
+    font-size: 22px;
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
 }
-.local-group{
+
+.local-group {
     margin-top: 150px;
     margin-left: 65px;
     margin-right: 65px;
@@ -142,10 +143,12 @@ body {
     align-items: center;
     height: 230px;
 }
-.group-img{   
+
+.group-img {
     text-align: center;
 }
-.hot-deal-container{
+
+.hot-deal-container {
     width: 100%;
     height: 400px;
     margin: 100px 0px;
@@ -156,77 +159,120 @@ body {
     align-items: center;
     gap: 100px;
 }
-.hot-deal-info{
+
+.hot-deal-info {
     margin: 30px 30px 10px 80px;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.deal-img{
+
+.deal-img {
     width: 90%;
     height: 350px;
 }
 
-.hot-deal-title{
+.hot-deal-title {
     font-weight: bold;
     font-size: 40px;
     margin-top: 16px;
     margin-bottom: 15px;
 }
 
-.hot-deal-description{
-    font-size: 15px;    
+.hot-deal-description {
+    font-size: 15px;
     color: rgba(26, 25, 25, 0.945);
 }
-.ins-img{
+
+.ins-img {
     margin: 30px 70px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
 }
-.ins-flow{
+
+.ins-flow {
     margin-bottom: 35px;
-   width: 100%
-   
+    width: 100%
 }
-#sub-section{
+
+#sub-section {
     margin: 30px 140px;
 }
-.sub-container{ 
+
+.sub-container {
     background-image: url('./images/Rectangle\ 9.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 265px;
-   
+
 }
-.sub-info{   
+
+.sub-info {
     text-align: center;
     padding-top: 30px;
 }
-.sub-input{
-    margin: 10px;    
+
+.sub-input {
+    margin: 10px;
     width: 455px;
     height: 42px;
     border: 0;
-    border-radius:8px;
+    border-radius: 8px;
 }
-.sub-title{
+
+.sub-title {
     font-weight: bold;
     font-size: 32px;
     margin-top: 15px;
     margin-bottom: 8px;
 }
-.sub-description{
+
+.sub-description {
     font-size: 15px;
     color: rgba(70, 67, 67, 0.945);
     margin-bottom: 10px;
 }
-#sub-btn{
+
+#sub-btn {
     width: 110px;
     height: 45px;
     font-weight: 500;
     font-size: 18px;
+}
+
+footer {
+    margin-top: 90px;
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    color: white;
+}
+
+.footer-section {
+    padding: 80px;
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 37px; 
+    padding-bottom: 20px;  
+}
+
+.footer-des {   
+    padding-bottom: 80px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;    
+    font-size: 17px;   
+    font-weight: 400;
+    line-height: 30px;
+}
+.small{       
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;   
+    font-size: 15px;   
+    font-weight: 400;    
 }
