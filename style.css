@@ -178,4 +178,14 @@ body {
     font-size: 15px;    
     color: rgba(26, 25, 25, 0.945);
 }
+.ins-img{
+    margin: 30px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.ins-flow{
+   width: 100%;
+}
 
