@@ -6,7 +6,7 @@
 body {
     font-family: 'Heebo', sans-serif;
 }
-
+/* <!-- banner section start --> */
 .banner-container {
     width: 100%;
     height: 550px;
@@ -67,7 +67,9 @@ body {
     margin: 10px 70px;
     background: #FFFFFF;
 }
-
+/* <!-- banner section End --> */
+/* -------- Main section start -------- */
+/* <!-- Our Featured Flowers start --> */
 .featured-flowers-title {
     color: black;
     text-align: center;
@@ -75,7 +77,6 @@ body {
     font-weight: 800;
 
 }
-
 .featured-flowers-info {
     margin-top: 40px;
     text-align: center;
@@ -103,7 +104,6 @@ body {
     margin-top: 20px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-
 }
 
 .featured-flowers-3 {
@@ -129,7 +129,8 @@ body {
     line-height: 35px;
     text-decoration-line: underline;
 }
-
+/* <!-- Our Featured Flowers End --> */
+/*  <!-- local-group start --> */
 .local-group {
     margin-top: 150px;
     margin-left: 65px;
@@ -137,11 +138,64 @@ body {
     background: rgba(39, 39, 39, 0.05);
     ;
     border-radius: 8px;
-    display: flex;
-    /* justify-content: space-around; */
+    display: flex; 
     justify-content: space-evenly;
     align-items: center;
     height: 230px;
+}
+/*  <!-- local-group End --> */
+/*   <!--Hot deal start  --> */
+.client-container{
+    margin: 30px 70px;
+    margin-bottom: 100px;
+    padding: 20px;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(214, 210, 210);
+    box-shadow: 5px 5px 15px 5px #979393;
+}
+.clienst{
+    width: 200%;
+    height: 400px;
+      
+}  
+.client-review{
+    /* margin: 20px; */
+    padding: 50px;
+}  
+
+.client-des{
+    font-size: 17px;
+    color: #272727;
+}
+.client-title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 750;
+    text-align: center;   
+}
+hr{
+   width: 100%;
+  height: 2px;
+  text-align: center;
+  background: #f8315c;  
+  background-position: center;  
+  margin-bottom: 20px;
+ 
+}
+.client-pic{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+.client-info{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .group-img {
@@ -184,6 +238,8 @@ body {
     color: rgba(26, 25, 25, 0.945);
 }
 
+/* <!--Hot deal End  --> */
+/* <!-- Instagram  section start --> */
 .ins-img {
     margin: 30px 70px;
     display: flex;
@@ -196,11 +252,11 @@ body {
     margin-bottom: 35px;
     width: 100%
 }
-
+/* <!-- Instagram image section end --> */
+/* <!-- client review start --> */
 #sub-section {
     margin: 30px 140px;
 }
-
 .sub-container {
     background-image: url('./images/Rectangle\ 9.png');
     background-repeat: no-repeat;
@@ -208,7 +264,6 @@ body {
     background-position: center;
     width: 100%;
     height: 265px;
-
 }
 
 .sub-info {
@@ -243,6 +298,7 @@ body {
     font-weight: 500;
     font-size: 18px;
 }
+/* <!-- client review end --> */
 
 footer {
     margin-top: 90px;
@@ -251,7 +307,7 @@ footer {
     height: 400px;
     color: white;
 }
-
+/* <!-- Footer section start --> */
 .footer-section {
     padding: 80px;
     text-align: center;
@@ -276,3 +332,4 @@ footer {
     font-size: 15px;   
     font-weight: 400;    
 }
+/* <!-- Footer section start --> */
