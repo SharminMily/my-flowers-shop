@@ -452,12 +452,14 @@ footer {
     }
     .client-container{
        /* display: none; */
-       width: 80%;
+       width: 85%;
        margin-left: 0px;
-       padding-left: 50px;
+       padding-left: 20px;
        margin-right: 0px;        
     } 
-    .client-info{
-        padding: 0px;
+    .client-info{        
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 100%;
     }
 }
